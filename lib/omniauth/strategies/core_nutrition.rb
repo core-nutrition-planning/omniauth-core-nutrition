@@ -31,7 +31,7 @@ module OmniAuth
       end
 
       uid do
-        raw_info['id'].to_s
+        user_profile_info['id'].to_s
       end
 
       info do
