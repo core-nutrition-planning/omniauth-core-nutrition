@@ -52,7 +52,7 @@ module OmniAuth
       end
 
       def user_profile_info
-        @user_profile_info ||= raw_info.fetch('user_profile', {})
+        @user_profile_info ||= raw_info.fetch('data', {})
       end
 
       def user_info_url
