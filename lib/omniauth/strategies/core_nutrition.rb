@@ -1,6 +1,6 @@
 require 'omniauth-oauth2'
 
-module Omniauth
+module OmniAuth
   module Strategies
     class CoreNutrition < OmniAuth::Strategies::OAuth2
       option :name, "core_nutrition"
